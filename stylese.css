@@ -1,0 +1,85 @@
+#prova {
+height: 100vh;
+width: 100vw;
+display: inline-block;
+z-index: 0;
+}
+
+#foto1 {
+  height: 100vh;
+  width: 33.33vw;
+  background:url("https://drive.google.com/uc?id=1PoWA4ICwaLV4WviAUGTlSduOl7Dws5eD");
+
+position: absolute;
+top: 100vh;
+  opacity:0;
+  animation-name: transform;
+  animation-duration: 5s;
+
+   animation-iteration-count: infinite;
+   background-repeat: no-repeat;
+background-position: 0 0;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center;
+z-index: 0;
+}
+#foto2 {
+  height: 100vh;
+  width: 33.33vw;
+  background:url("https://drive.google.com/uc?id=1KUX_Ul_oKR1eKzU2V5Bkntm9oiJn9aCE");
+
+position:absolute;
+top: 100vh;
+left: 33.33vw;
+  animation-name: transform;
+  animation-duration: 5s;
+  animation-delay: 1s;
+   animation-iteration-count: infinite;
+   background-position: 0 0;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+   z-index: 0;
+
+}
+#foto3 {
+  margin-right: 0;
+  height: 100vh;
+  width: 32vw;
+  background:url("https://drive.google.com/uc?id=1664vFgTpSqfQzpQYgVedA7DGcUjrTp_F");
+  background-position: 0 0;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  z-index: 0;
+position: absolute;
+top: 100vh;
+left: 66.66vw;
+  animation-name: transform;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  opacity: 0;
+     background-size: cover;
+
+   animation-iteration-count: infinite;
+z-index: 0;
+}
+
+
+
+@keyframes transform {
+0% {
+opacity: 0;
+}
+50% {
+  opacity: 100;
+}
+100% {
+  opacity: 0;
+}
+}

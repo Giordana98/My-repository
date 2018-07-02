@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head> <link rel="stylesheet" href="style.css"/>
+    <script src="jquery.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans+Condensed:300|Scheherazade" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+  <title>Homepage</title>
+
+  <!-- on scroll menu --> <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div style="padding:15px 15px 2500px;font-size:30px">
+  <p><b>This example demonstrates how to slide down a navbar when the user starts to scroll the page.</b></p>
+  <p>Scroll down this frame to see the effect!</p>
+  <p>Scroll to the top to hide the navbar.</p>
+  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-50px";
+    }
+}
+</script>
+
+</body>
+</html>
+<!-- on scroll menu -->
+
+
+<body>
+
+
+  <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#aboutme">about me</a>
+    <a href="#projects">projects</a>
+    <a href="#photography">photography</a>
+    <a href="#contact">contact</a>
+  </div>
+  </div>
+
+
+  <span class="sticky"; style="color: white;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+  </script>
+
+  <div class="header">
+    <h2></h2>
+    <p></p>
+  </div>
+
+  <div id="navbar">
+    <a class="active" href="javascript:void(0)">home</a>
+    <a href="javascript:void(0)">art</a>
+    <a href="javascript:void(0)">poetry</a>
+  </div>
+
+  <div class="content">
+    <h3>Sticky Navigation Example</h3>
+    <p>The navbar will stick to the top when you reach its scroll position.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  </div>
+
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+  <a id="aboutme">about me</a>
+  <p>communication design student at the Politecnico of Milan</p>
+  <a id= "projects">projects</a>
+  <a id="photography">photography</a>
+  <a id="contact">contact</a>
+
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<div id="quadratone" class="center">
+  <div id="pianeta2" class="q top left"></div>
+   </div>
+<div id="quadrato" class="center">
+ <div id="pianeta" class="q top left"></div>
+  </div>
+<div id="stella" class="q center"></div>
+
+<script>
+
+function ruota(){
+   $("#quadrato").addClass("rotate");
+}
+function appare_ruota() {
+  $("#pianeta2").addClass("lightblue");
+  $("#quadratone").addClass("anti");
+}
+function trasforma() {
+  if (("#quadrato").hasClass("rotate"))
+  {$("#pianeta2").addClass("lightblue");
+  $("#quadratone").addClass("anti");}
+ else {
+  $("#quadrato").addClass("rotate");
+ }
+ }
+
+$("#stella").click(trasforma);
+</script>
+<style>
+#quadratone {
+  width: 350px;
+  height: 350px;
+  background: red;
+}
+.lightblue {
+  background: lightblue;
+}
+.top {
+  top: 0;
+}
+.left {
+  left: 0;
+}
+#quadrato {
+
+  width: 200px;
+  height: 200px;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#stella {
+  background-color: yellow;
+}
+#pianeta {
+  background-color: blue;
+}
+.q {
+  height: 33px;
+  width: 33px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.rotate {
+  animation: rotation 1s linear infinite;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: translate(-50%, -50%)
+rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+
+.anti {
+  animation: antiorario 1s linear infinite;
+}
+@keyframes antiorario {
+  from {
+    transform: translate(-50%, -50%)
+rotate(0deg);
+}
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+</style>

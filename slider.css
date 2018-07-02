@@ -1,0 +1,10 @@
+
+#rt-showcase.slider-container { background: white; }
+.slider-container {
+    padding-top: 20px;
+}
+.slider-container .csslider1 {
+    position: relative;
+    display: block;
+    margin: 0 auto !important;
+}

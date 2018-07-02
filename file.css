@@ -1,0 +1,30 @@
+#pic img {
+border: none;
+display: block;
+z-index: 1;
+}
+
+a:before,
+#pic:after,
+#pic img {
+-webkit-transition: all 200ms ease;
+-moz-transition: all 200ms ease;
+-o-transition: all 200ms ease;
+transition: all 200ms ease;
+}
+
+#pic:hover img {
+-webkit-transform: scale(1.2);
+-moz-transform: scale(1.2);
+-ms-transform: scale(1.2);
+-o-transform: scale(1.2);
+transform: scale(1.2);
+}
+
+#pic:hover:before {
+opacity: 0.3;
+}
+
+#pic:hover:after {
+left: 0;
+}
