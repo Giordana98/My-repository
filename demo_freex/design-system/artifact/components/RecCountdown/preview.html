@@ -1,0 +1,13 @@
+<!-- @dsCard group="Status" height=140 subtitle="rec timer, sample target" -->
+<div id="root" style="padding:24px;background:var(--ground);color:var(--text);font-family:var(--font-mono)">
+<style>@keyframes rec{50%{opacity:0}} .dot{animation:rec 1s steps(1) infinite} @media (prefers-reduced-motion:reduce){.dot{animation:none}}</style>
+<div style="font-size:13.33px;letter-spacing:.1em"><span class="dot">●</span> rec</div>
+<div id="t" style="font-size:48px;letter-spacing:.04em;margin-top:8px">00:00:00:00</div>
+<div style="font-size:13.33px;margin-top:8px">[date tbc]</div>
+</div>
+<script>
+const target=Date.now()+((48*24+7)*3600+42*60+5)*1000; // sample only — not the event date
+const p=n=>String(n).padStart(2,'0');
+function tick(){let s=Math.max(0,Math.floor((target-Date.now())/1000));const d=Math.floor(s/86400);s%=86400;const h=Math.floor(s/3600);s%=3600;document.getElementById('t').textContent=[p(d),p(h),p(Math.floor(s/60)),p(s%60)].join(':');}
+tick();setInterval(tick,1000);
+</script>

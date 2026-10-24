@@ -1,0 +1,122 @@
+{
+ "v": 3,
+ "layout": "files",
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-10-24T10:19:11Z"
+ },
+ "title": "DEMO_FREEX",
+ "namespace": "DemoFreex",
+ "libraries": [],
+ "sections": {},
+ "groups": [
+  "Logo",
+  "Drawing"
+ ],
+ "assetGroups": {
+  "Logo": {
+   "name": "Logo",
+   "tile": "l",
+   "order": [
+    "Line_B.svg",
+    "Line_W.svg",
+    "Stacked_B.svg",
+    "Stacked_W.svg",
+    "Monogram_B.svg",
+    "Monogram_W.svg",
+    "Line+Type_B.svg",
+    "Line+Type_W.svg",
+    "Stacked+Type_B.svg",
+    "Stacked+Type_W.svg"
+   ],
+   "files": {
+    "Line_B.svg": {
+     "name": "Line_B.svg",
+     "blob": "8e9effa4e656283aea9b439115aa55fa",
+     "size": 5833,
+     "type": "image/svg+xml"
+    },
+    "Line_W.svg": {
+     "name": "Line_W.svg",
+     "blob": "79111362a2dcb19cbf15cea119744793",
+     "size": 5830,
+     "type": "image/svg+xml"
+    },
+    "Stacked_B.svg": {
+     "name": "Stacked_B.svg",
+     "blob": "3b863824665185034f27f534f1ac5ae8",
+     "size": 5969,
+     "type": "image/svg+xml"
+    },
+    "Stacked_W.svg": {
+     "name": "Stacked_W.svg",
+     "blob": "9599e6d97aebb960a7e08433b78988fb",
+     "size": 5966,
+     "type": "image/svg+xml"
+    },
+    "Monogram_B.svg": {
+     "name": "Monogram_B.svg",
+     "blob": "d790c529c2d6d66d1f1ada77e3e8fdf5",
+     "size": 1790,
+     "type": "image/svg+xml"
+    },
+    "Monogram_W.svg": {
+     "name": "Monogram_W.svg",
+     "blob": "f115db4452e73f1e429b3a85444e8319",
+     "size": 1783,
+     "type": "image/svg+xml"
+    },
+    "Line~2bType_B.svg": {
+     "name": "Line+Type_B.svg",
+     "blob": "b26319d7ddc470830ade57c1c1cb8f36",
+     "size": 10777,
+     "type": "image/svg+xml"
+    },
+    "Line~2bType_W.svg": {
+     "name": "Line+Type_W.svg",
+     "blob": "93540866336c1efc64718f7ec89b7b51",
+     "size": 10774,
+     "type": "image/svg+xml"
+    },
+    "Stacked~2bType_B.svg": {
+     "name": "Stacked+Type_B.svg",
+     "blob": "b5241782a0a6d068fec7edf3fc020972",
+     "size": 11014,
+     "type": "image/svg+xml"
+    },
+    "Stacked~2bType_W.svg": {
+     "name": "Stacked+Type_W.svg",
+     "blob": "ca17aa318da84f5ca98cfd4bcb5f204c",
+     "size": 11011,
+     "type": "image/svg+xml"
+    }
+   }
+  },
+  "Drawing": {
+   "name": "Drawing",
+   "tile": "m",
+   "order": [
+    "illustrazione_china_scan.pdf"
+   ],
+   "files": {
+    "illustrazione_china_scan.pdf": {
+     "name": "illustrazione_china_scan.pdf",
+     "blob": "992db6b6396efd9ab44d74d6792b33cf",
+     "size": 53820,
+     "type": "application/pdf"
+    }
+   }
+  }
+ },
+ "blobs": {},
+ "docs": {
+  "readme": "project/README.md",
+  "sections": []
+ },
+ "lastChange": {
+  "by": "Giordana",
+  "at": "2026-10-24T10:19:11Z",
+  "via": "Claude Code",
+  "note": "First version from Marta's logo + Space Mono and Giordana's ink drawing only."
+ }
+}

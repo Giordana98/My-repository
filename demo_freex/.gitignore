@@ -1,0 +1,10 @@
+# originals stay with Giordana (high-res, raw)
+*.NEF
+*.nef
+*.xmp
+*.tif
+*.tiff
+originali/
+# system
+.DS_Store
+node_modules/

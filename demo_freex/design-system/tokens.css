@@ -1,0 +1,36 @@
+/* DEMO_FREEX design tokens — only values traceable to Marta's files or the docs.
+   Adding a token = Giordana's approval (see inventory.md). */
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("../marta/font/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* colour — source: fill values in marta/logo/SVG/*.svg */
+  --ink: #1d1d1b;          /* logo _B */
+  --paper: #ffffff;        /* logo _W */
+  /* source: docs/brand-e-decisioni.md "Primo post: logo su nero assoluto" */
+  --black-absolute: #000000;
+
+  /* type — Space Mono is the only information typeface (marta/font) */
+  --font-info: "Space Mono", ui-monospace, monospace;
+  /* scale — source: docs/poster-copy-free-session-01.md (Sept draft, pt) */
+  --type-headline: 36pt;   /* free.session_01 / DEMO_FREEX opening (logo preferred for the name) */
+  --type-info: 20pt;       /* date, venue, artist */
+  --type-body: 14pt;       /* brand description */
+  --type-small: 10pt;      /* partnership + tagline */
+  --align: left;           /* "allineamento a sinistra ovunque" */
+  --separator: "——";
+
+  /* poster margins — source: poster spec (inches) */
+  --margin-poster-y: 1.2in;
+  --margin-poster-x: 1.4in;
+
+  /* status indicator — eyelet row, source: CLAUDE.md "DNA visivo" */
+  --eyelet-off: "○";
+  --eyelet-on: "●";
+}

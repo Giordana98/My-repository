@@ -1,0 +1,6 @@
+<!-- @dsCard group="Status" height=120 subtitle="track 3 of 11, Night and Paper" -->
+<div id="root" style="display:flex;flex-direction:column;gap:16px;padding:24px;background:var(--ground);color:var(--text);font-family:var(--font-mono);font-size:26.67px;letter-spacing:.08em"></div>
+<script>
+const r=document.getElementById('root');
+[3,11].forEach(n=>{const d=document.createElement('div');d.textContent=Array.from({length:11},(_,i)=>i===n-1?'\u25CF':'\u25CB').join('')+'  track '+n+' / 11';r.appendChild(d);});
+</script>
